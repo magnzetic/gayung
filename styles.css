@@ -243,6 +243,7 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     padding: 40px 60px;
+    margin-bottom: 43em;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     max-width: 60%;
     max-height: 80%;
@@ -330,14 +331,14 @@ body {
     justify-content: center; 
     align-items: center;
     position: relative; 
-    top: 50%; 
+    top: 45%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
 }
 
 #container-0 h1 {
     font-family: "Seashore";
-    font-size: 5.5em;
+    font-size: 4em;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 20px;
@@ -368,7 +369,7 @@ body {
 
 #container-0 h4 {
     font-family: 'Times New Roman', serif;
-    font-size: 1em;
+    font-size: 0.9em;
     color: #ffffff;
     margin-bottom: -10px;
     line-height: 1;
@@ -401,7 +402,8 @@ body {
 
 #container-3 h1 {
     font-family: "Seashore";
-    font-size: 5.5em;
+    font-size: 5em;
+    text-align: center;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 20px;
@@ -537,12 +539,12 @@ body {
     opacity: 0; /* Initially hidden */
     transform: translateY(50px); /* Move down */
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-    width: 70%;
+    width: 80%;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    padding: 40px 60px;
+    padding: 40px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    max-width: 60%;
+    max-width: 90%;
     max-height: 80%;
     text-align: center;
     justify-content: center;
@@ -555,7 +557,7 @@ body {
 
 #container-6 h1 {
     font-family: "Seashore";
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 20px;
@@ -569,7 +571,6 @@ body {
     margin-bottom: 20px;
     line-height: 1.5;
     text-align: justify;
-    margin-left: 10px;
 }
 
 
