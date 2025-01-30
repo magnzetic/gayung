@@ -186,10 +186,7 @@ body {
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
-    position: relative; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
+    margin: auto;
 }
 
 .moodboard-image {
@@ -206,7 +203,7 @@ body {
 #container-1 h1 {
     font-family: "Seashore"; 
     text-align: center;
-    font-size: 4em;
+    font-size: 4.5em;
     font-weight: bold;
     color: #000000;
     margin-bottom: 20px;
@@ -243,17 +240,14 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     padding: 40px 60px;
-    margin-bottom: 43em;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     max-width: 60%;
     max-height: 80%;
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 135%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: auto;
+    margin-bottom: 80px;
 }
 
 #container-2 button {
@@ -273,7 +267,7 @@ body {
 
 #container-2 h1 {
     font-family: "Seashore";
-    font-size: 3em;
+    font-size: 3.5em;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 20px;
@@ -330,15 +324,13 @@ body {
     text-align: center;
     justify-content: center; 
     align-items: center;
-    position: relative; 
-    top: 45%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 #container-0 h1 {
     font-family: "Seashore";
-    font-size: 4.5em;
+    font-size: 5em;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 20px;
@@ -394,10 +386,8 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: relative; 
-    top: 68%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 #container-3 h1 {
@@ -435,10 +425,8 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center; 
-    position: relative;
-    top: 105%;
-    left: 50%; 
-    transform: translate(-50%, -50%);
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 #container-4 h1 {
@@ -486,10 +474,8 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 115%;
-    left: 50%; 
-    transform: translate(-50%, -50%);
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 #container-5 h1 {
@@ -545,19 +531,16 @@ body {
     padding: 40px 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     max-width: 90%;
-    max-height: 80%;
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: relative;
-    top: 90%;
-    left: 50%; 
-    transform: translate(-50%, -50%);
+    margin: auto;
+    margin-bottom: 50px;
 }
 
 #container-6 h1 {
     font-family: "Seashore";
-    font-size: 3.5em;
+    font-size: 4.5em;
     font-weight: bold;
     color: #ffffff;
     margin-bottom: 20px;
@@ -571,27 +554,6 @@ body {
     margin-bottom: 20px;
     line-height: 1.5;
     text-align: justify;
-}
-
-
-  #container-6 .scroll-content {
-    max-height: 55vh; /* Limits height to fit within the container */
-    overflow-y: auto; /* Enables vertical scrolling */
-    padding-right: 5px; /* Prevents text from hitting the scrollbar */
-}
-
-/* Custom scrollbar (optional, for better aesthetics) */
-#container-6 .scroll-content::-webkit-scrollbar {
-    width: 5px;
-}
-
-#container-6 .scroll-content::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
-}
-
-#container-6 .scroll-content::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.1);
 }
 
 .tellonym-button {
